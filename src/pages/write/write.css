@@ -1,0 +1,85 @@
+.Write {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	align-items: center;
+
+	padding-top: 50px;
+}
+
+.WriteImg {
+	width: 70vw;
+	height: 250px;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+.WriteForm {
+	position: relative;
+}
+
+.WriteFormGroup {
+	margin-left: 150px;
+
+	display: flex;
+	align-items: center;
+}
+
+.WriteIcon {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 1px solid ;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 23px;
+	color: rgb(128, 118, 118);
+	cursor: pointer;
+}
+
+.WriteInput {
+	font-size: 30px;
+	border: none;
+	padding: 20px;
+	width: 70vw;
+
+}
+
+.WriteInput:focus {
+	outline: none;
+}
+
+/* .WriteTitle {
+	border-bottom: 4px solid rgb(128, 118, 118);
+} */
+
+.WriteText {
+	font-size: 20px;
+	height: 70vh;
+}
+
+.WriteSubmit {
+	/* position: absolute; 
+	top: 20px;
+	right: 50px; */
+
+	color: white;
+	background-color: teal;
+	padding: 10px 13px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.WriteSubmit.go-back {
+	margin-right: 12px;
+	background-color: tomato;
+}
+
+
+

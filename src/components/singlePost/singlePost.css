@@ -1,0 +1,71 @@
+.SinglePost {
+	flex: 9;
+}
+
+/* 이미지 */
+.SinglePostWrapper {
+	padding: 20px;
+	padding-right: 0;
+}
+
+.SinglePostImg {
+	width: 100%;
+	height: 300px;
+	border-radius: 7px;
+	object-fit: cover;
+}
+
+/* 블로그 제목 */
+.SinglePostTitle {
+	text-align: center;
+	margin: 10px;
+	font-family: 'Lora', serif; 
+	font-size: 28px;
+}
+
+/* 수정,삭제 아이콘 */
+.SingPostEdit {
+	float: right; /* 오른쪽 정렬 */
+	font-size: 18px;
+}
+
+.SingPostIcon {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.SingPostIcon:first-child {
+	color: teal;
+}
+
+.SingPostIcon:last-child {
+	color: tomato;
+}
+
+.SinglePostInfo {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+	font-family: 'Varela Round', sans-serif;
+	color: #666;
+}
+
+.SinglePostDesc {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+/* 첫번째 줄의 첫번째 글자 스타일 지정 */
+.SinglePostDesc::first-letter {
+	margin-left: 20px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+/* 폰트
+font-family: 'Josefin Sans', sans-serif; (NavBar)
+font-family: 'Lora', serif;  (React & NodeBlog)
+font-family: 'Varela', sans-serif; (카테고리)
+font-family: 'Varela Round', sans-serif;
+*/

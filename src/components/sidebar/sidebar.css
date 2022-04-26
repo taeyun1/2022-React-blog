@@ -1,0 +1,84 @@
+.Sidebar {
+	flex: 3;
+	margin: 20px;
+
+	padding: 10px 10px 30px 10px;
+	/* padding-bottom: 30px; */
+	background-color: #fdfbdb;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+.SidebarItem {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.SidebarTitle {
+	margin: 10px;
+	padding: 5px;
+	width: 80%;
+	border-top: 1px solid #a7a4a4;
+	border-bottom: 1px solid #a7a4a4;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	color: #222;
+
+	line-height: 20px;
+	text-align: center;
+}
+
+.SidebarImg {
+	width: 100%;
+	height: 180px;
+	margin-top: 15px;
+
+	object-fit: cover;
+	border-radius: 7px;
+
+}
+
+.SidebarItem > p {
+	padding: 20px;
+}
+
+.SidebarList {
+	margin-bottom: 30px;
+}
+
+.SidebarListItem {
+	display: inline-block;
+	width: 50%; /* 좌우 카테고리 글 반반 위치 */
+	margin-top: 15px;
+
+	cursor: pointer;
+}
+
+
+.SidebarSocial {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin-top: 15px;
+	width: 250px;
+}
+
+.SidebarIcon {
+	font-size: 20px;
+	margin-left: 10px;
+	cursor: pointer;
+
+}
+/* 폰트
+font-family: 'Josefin Sans', sans-serif; (NavBar)
+font-family: 'Lora', serif;  (React & NodeBlog)
+font-family: 'Varela', sans-serif; (카테고리)
+font-family: 'Varela Round', sans-serif;
+*/
